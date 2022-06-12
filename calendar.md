@@ -76,13 +76,17 @@
 | `function keyPressed() { ... }` | This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable. |
 | `if( condition ){ ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing. |
 | `if( condition ) { ... } else { ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited. |
-| ```if( condition1 ){
+|
+
+```if( condition1 ){
     ...
   } else if( condition2 ) {
     ...
   } else {
     ...
-  }``` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
+  }```
+
+  | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
 
 ## E - External media (images)
 
