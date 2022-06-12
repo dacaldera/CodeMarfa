@@ -92,7 +92,11 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-```function mouseClicked() { ... }```
+```
+function mouseClicked() {
+  ...
+}
+```
 
 </td>
 <td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
@@ -101,7 +105,11 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-`function keyPressed() { ... }`
+```
+function keyPressed() {
+  ...
+}
+```
 
 </td>
 <td>This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable.</td>
@@ -110,7 +118,11 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-`if( condition ){ ... }`
+```javascript
+if( condition ){
+  ...
+}
+```
 
 </td>
 <td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing.</td>
@@ -119,7 +131,13 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-`if( condition ) { ... } else { ... }`
+```javascript
+if( condition ) {
+    ...
+  } else {
+    ...
+  }
+```
 
 </td>
 <td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited.</td>
@@ -128,7 +146,7 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-```
+```javascript
 if( condition1 ){
     ...
   } else if( condition2 ) {
