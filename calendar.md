@@ -11,16 +11,70 @@
 -   Explore a variety of shapes (and lines, time permitting)
 -   Add color, stroke, lineWeight
 -   Lab: Explore the line function (if not yet). Draw your own animal or plant using only shapes. Give it color with fill and stroke. keep it simple, maximum 10 shapes. Save your file (will be using it for next lesson)
+<table>
+<tr>
+<td>
 
-| Name   | Info |
-| ------ | --------- |
-| ```function setup(){
+```javascript
+function setup(){
   ...
-  }``` | This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens. |
-| `function draw() { ... }` | This is a p5.js function that runs continuously (forever) in a loop after the setup function has finished running. The draw loop is a good place to put code that needs repeated execution, like animation elements, etc. |
-| `createCanvas(width, height)` | This function is required and creates the canvas onto which your sketch will draw graphics to. The createCanvas function should reside at the start of the setup(){ ... } function, and should only be called once. |
-| `fill( r, g, b )` | Fills a shape with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shapes coming after this function in the code will be filled with the specified color. Adding a fourth value will set transparency |
-| `stroke(r, g, b )` | Draws shape edges or lines with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shape edges or lines coming after this function in the code will be drawn with the specified color. Adding a fourth value will set transparency |
+}
+```
+
+</td>
+<td>This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens.</td>
+</tr>
+
+<tr>
+<td>
+
+``` javascript
+function draw() {
+  ...
+}
+```
+
+</td>
+<td>This is a p5.js function that runs continuously (forever) in a loop after the setup function has finished running. The draw loop is a good place to put code that needs repeated execution, like animation elements, etc.</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+createCanvas(width, height);
+```
+
+</td>
+<td>This function is required and creates the canvas onto which your sketch will draw graphics to. The createCanvas function should reside at the start of the setup(){ ... } function, and should only be called once.</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+fill( r, g, b );
+```
+
+</td>
+<td>Fills a shape with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shapes coming after this function in the code will be filled with the specified color. Adding a fourth value will set transparency</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+stroke(r, g, b );
+```
+
+</td>
+<td>Draws shape edges or lines with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shape edges or lines coming after this function in the code will be drawn with the specified color. Adding a fourth value will set transparency</td>
+</tr>
+
+
+</table>
+
+| Shape functions | Arguments |
 | ----------- | ----------- |
 | `circle()` |  |
 | `square()` |  |
