@@ -78,13 +78,15 @@
 | `if( condition ) { ... } else { ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited. |
 |
 
-```if( condition1 ){
+```
+if( condition1 ){
     ...
   } else if( condition2 ) {
     ...
   } else {
     ...
-  }```
+  }
+```
 
   | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
 
