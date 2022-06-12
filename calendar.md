@@ -14,6 +14,13 @@
 
 
 <table>
+
+<tr>
+<td>Code snippet </td>
+<td>Description </td>
+<td>Reference</td>
+</tr>
+
 <tr>
 <td>
 
@@ -98,6 +105,12 @@ stroke(r, g, b );
 <table>
 
 <tr>
+<td>Code snippet </td>
+<td>Description </td>
+<td>Reference</td>
+</tr>
+
+<tr>
 <td>
 
 ```
@@ -119,6 +132,7 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 <td>These are variables that hold the current x-position and y-position of the mouse cursor when it is over the canvas. They are built-in variables, meaning that they exist as part of the p5.js library whether you use them or not, they are always available.</td>
 </tr>
 
+</table
 
 
 
@@ -133,6 +147,13 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 -   Lab:
 
 <table>
+
+<tr>
+<td>Code snippet </td>
+<td>Description </td>
+<td>Reference</td>
+</tr>
+
 <tr>
 <td>
 
@@ -207,7 +228,9 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 <table>
 
 <tr>
-<td> Code snippet </td> <td> What it does </td>
+<td>Code snippet </td>
+<td>Description </td>
+<td>Reference</td>
 </tr>
 
 <tr>
