@@ -14,7 +14,9 @@
 
 | Name   | Info |
 | ------ | --------- |
-| `function setup(){ ... }` | This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens. |
+| ```function setup(){
+  ...
+  }``` | This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens. |
 | `function draw() { ... }` | This is a p5.js function that runs continuously (forever) in a loop after the setup function has finished running. The draw loop is a good place to put code that needs repeated execution, like animation elements, etc. |
 | `createCanvas(width, height)` | This function is required and creates the canvas onto which your sketch will draw graphics to. The createCanvas function should reside at the start of the setup(){ ... } function, and should only be called once. |
 | `fill( r, g, b )` | Fills a shape with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shapes coming after this function in the code will be filled with the specified color. Adding a fourth value will set transparency |
@@ -74,7 +76,13 @@
 | `function keyPressed() { ... }` | This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable. |
 | `if( condition ){ ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing. |
 | `if( condition ) { ... } else { ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited. |
-| `if( condition1 ){ ... } else if( condition2 ) { ... } else { ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
+| ```if( condition1 ){
+    ...
+  } else if( condition2 ) {
+    ...
+  } else {
+    ...
+  }``` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
 
 ## E - External media (images)
 
