@@ -79,19 +79,100 @@ stroke(r, g, b );
 </td>
 <td>Draws shape edges or lines with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shape edges or lines coming after this function in the code will be drawn with the specified color. Adding a fourth value will set transparency</td>
 </tr>
+</table>
 
+
+
+<table>
+<tr>
+<td>
+
+```javascript
+circle(x-position, y-position, size)
+```
+
+</td>
+<td>Draws a circle</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+square()
+```
+
+</td>
+<td>Draws a square</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+rect()
+```
+
+</td>
+<td>Draws a rectangle</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+ellipse()
+```
+
+</td>
+<td>Draws an oval</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+triangle()
+```
+
+</td>
+<td>Draws a triangle</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+line()
+```
+
+</td>
+<td>Draws a line between two points</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+arc()
+```
+
+</td>
+<td>Draws an arc</td>
+<td></td>
+</tr>
 
 </table>
 
-| Shape functions | Arguments |
-| ----------- | ----------- |
-| `circle()` |  |
-| `square()` |  |
-| `rect()` |  |
-| `ellipse()` |  |
-| `triangle()` |  |
-| `line()` |  |
-| `arc()` |  |
+
+
+
 
 ## B - Create a custom function with parameters
 
@@ -113,7 +194,7 @@ stroke(r, g, b );
 <tr>
 <td>
 
-```
+```javascript
 function myFunctionName ( parameter1, parameter2, etc ) {
   ...
 }
@@ -126,7 +207,15 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 <tr>
 <td>
 
-`mouseX` and `mouseY`
+```javascript
+mouseX
+```
+
+and
+
+```javascript
+mouseY
+```
 
 </td>
 <td>These are variables that hold the current x-position and y-position of the mouse cursor when it is over the canvas. They are built-in variables, meaning that they exist as part of the p5.js library whether you use them or not, they are always available.</td>
@@ -169,7 +258,8 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 `let`
 
 </td>
-<td>"let" is a keyword used to declare a variable. The declared variable exists only within the block that it exists in, not outside of it. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)</td>
+<td>"let" is a keyword used to declare a variable. The declared variable exists only within the block that it exists in, not outside of it. </td>
+<td>[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)</td>
 </tr>
 
 <tr>
@@ -178,7 +268,8 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 `string`
 
 </td>
-<td>A string is generally a string of text. Strings require quotation marks (like this: "my string"). Two strings can be added together into a larger string. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)</td>
+<td>A string is generally a string of text. Strings require quotation marks (like this: "my string"). Two strings can be added together into a larger string.</td>
+<td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)</td>
 </tr>
 
 <tr>
@@ -187,13 +278,16 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 `number`
 
 </td>
-<td>Numbers can be of two different types. Whole numbers (known as an "integer"), and numbers with a floating point aka decimal point (known as a "float")[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)</td>
+<td>Numbers can be of two different types. Whole numbers (known as an "integer"), and numbers with a floating point aka decimal point (known as a "float").</td>
+<td>[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)</td>
 </tr>
 
 <tr>
 <td>
 
-`console.log( put_variable_here )`
+```javascript
+console.log( put_variable_here );
+```
 
 </td>
 <td>Logging things to the console is a way to see the value of variables, generally for debugging purposes etc.</td>
@@ -202,7 +296,9 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 <tr>
 <td>
 
-`text( value, x-position, y-position)`
+```javascript
+text( value, x-position, y-position)
+```
 
 </td>
 <td>Draws the value as text onto the canvas at the given x and y coordinates.</td>
@@ -243,7 +339,7 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-```
+```javascript
 function mouseClicked() {
   ...
 }
@@ -256,7 +352,7 @@ function mouseClicked() {
 <tr>
 <td>
 
-```
+```javascript
 function keyPressed() {
   ...
 }
