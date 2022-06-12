@@ -70,16 +70,60 @@
 -   Lab: Create an applet that draws different shapes depending on keyPresses and mouse Positions (use custom functions)
 
 
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+
 <table>
+
 <tr>
 <td> Code snippet </td> <td> What it does </td>
 </tr>
+
 <tr>
 <td> boolean </td>
 <td>
 A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: `myBoolean = true;` or `myBoolean = false;`. It is also possible to assign the number `1` or the number `0` to the boolean variable. `1` is the same as `true` and `0` is the same as `false`
 </td>
 </tr>
+
+<tr>
+<td>```function mouseClicked() { ... }```</td>
+<td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
+</tr>
+
+<tr>
+<td>`function keyPressed() { ... }`</td>
+<td>This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable.</td>
+</tr>
+
+<tr>
+<td>`if( condition ){ ... }`</td>
+<td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing.</td>
+</tr>
+
+<tr>
+<td>`if( condition ) { ... } else { ... }`</td>
+<td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited.</td>
+</tr>
+
+<tr>
+<td>
+```
+if( condition1 ){
+    ...
+  } else if( condition2 ) {
+    ...
+  } else {
+    ...
+  }
+```
+</td>
+<td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceding if statements are true, then the code inside the else brackets gets exicuted and then exited. </td>
+</tr>
+
 </table>
 
 | Name   | Info |
