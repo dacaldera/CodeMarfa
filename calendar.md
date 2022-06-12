@@ -23,7 +23,8 @@
   * Console.log to see the value of the variable
   * text() to write it to screen at a given position
   * Lab:
-  |---|---|
+
+
   |const|[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)|
   |let |[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)|
   |string|[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|
