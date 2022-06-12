@@ -14,19 +14,19 @@
 
 | Name   | Info |
 | ------ | --------- |
-| function setup(){ ... } | This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens. |
-| function draw() { ... } | This is a p5.js function that runs continuously (forever) in a loop after the setup function has finished running. The draw loop is a good place to put code that needs repeated execution, like animation elements, etc. |
-| createCanvas(width, height) | This function is required and creates the canvas onto which your sketch will draw graphics to. The createCanvas function should reside at the start of the setup(){ ... } function, and should only be called once. |
-| fill( r, g, b ) | Fills a shape with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shapes coming after this function in the code will be filled with the specified color. Adding a fourth value will set transparency |
-| stroke(r, g, b ) | Draws shape edges or lines with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shape edges or lines coming after this function in the code will be drawn with the specified color. Adding a fourth value will set transparency |
+| `function setup(){ ... }` | This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens. |
+| `function draw() { ... }` | This is a p5.js function that runs continuously (forever) in a loop after the setup function has finished running. The draw loop is a good place to put code that needs repeated execution, like animation elements, etc. |
+| `createCanvas(width, height)` | This function is required and creates the canvas onto which your sketch will draw graphics to. The createCanvas function should reside at the start of the setup(){ ... } function, and should only be called once. |
+| `fill( r, g, b )` | Fills a shape with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shapes coming after this function in the code will be filled with the specified color. Adding a fourth value will set transparency |
+| `stroke(r, g, b )` | Draws shape edges or lines with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shape edges or lines coming after this function in the code will be drawn with the specified color. Adding a fourth value will set transparency |
 | ----------- | ----------- |
-| circle() |  |
-| square() |  |
-| rect() |  |
-| ellipse() |  |
-| triangle() |  |
-| line() |  |
-| arc() |  |
+| `circle()` |  |
+| `square()` |  |
+| `rect()` |  |
+| `ellipse()` |  |
+| `triangle()` |  |
+| `line()` |  |
+| `arc()` |  |
 
 ## B - Create a custom function with parameters
 
@@ -38,8 +38,8 @@
 
 | Name   | Info |
 | ------ | --------- |
-| function myFunctionName( parameter1, parameter2, etc ) { ... } | This is the standard format for declaring a function. The "function" keyword is required before writing the name of the function which is then followed by open and closed squiggly brackets ( { } ). The parameters for the function are used within the body of the function to do certain tasks. Parameters can be integers, or strings, or anything really. |
-| mouseX and mouseY | These are variables that hold the current x-position and y-position of the mouse cursor when it is over the canvas. They are built-in variables, meaning that they exist as part of the p5.js library whether you use them or not, they are always available. |
+| `function myFunctionName( parameter1, parameter2, etc ) { ... }` | This is the standard format for declaring a function. The "function" keyword is required before writing the name of the function which is then followed by open and closed squiggly brackets ( { } ). The parameters for the function are used within the body of the function to do certain tasks. Parameters can be integers, or strings, or anything really. |
+| `mouseX` and `mouseY` | These are variables that hold the current x-position and y-position of the mouse cursor when it is over the canvas. They are built-in variables, meaning that they exist as part of the p5.js library whether you use them or not, they are always available. |
 
 ## C - Declaring and using variables (and Constants)
 
@@ -52,12 +52,12 @@
 
 | Name   | Info |
 | ------ | --------- |
-| const  | The value of a constant can't be changed. A value needs to be assigned to it at the moment it is declared. If you try to change the value of it after declaring, the sketch with throw an error. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)      |
-| let    | "let" is a keyword used to declare a variable. The declared variable exists only within the block that it exists in, not outside of it. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)        |
-| string | A string is generally a string of text. Strings require quotation marks (like this: "my string"). Two strings can be added together into a larger string. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |
-| number | Numbers can be of two different types. Whole numbers (known as an "integer"), and numbers with a floating point aka decimal point (known as a "float")[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type) |
-| console.log( put_variable_here ) | Logging things to the console is a way to see the value of variables, generally for debugging purposes etc. |
-| text( value, x-position, y-position)| Draws the value as text onto the canvas at the given x and y coordinates. |
+| `const`  | The value of a constant can't be changed. A value needs to be assigned to it at the moment it is declared. If you try to change the value of it after declaring, the sketch with throw an error. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)      |
+| `let`    | "let" is a keyword used to declare a variable. The declared variable exists only within the block that it exists in, not outside of it. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)        |
+| `string` | A string is generally a string of text. Strings require quotation marks (like this: "my string"). Two strings can be added together into a larger string. [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |
+| `number` | Numbers can be of two different types. Whole numbers (known as an "integer"), and numbers with a floating point aka decimal point (known as a "float")[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type) |
+| `console.log( put_variable_here )` | Logging things to the console is a way to see the value of variables, generally for debugging purposes etc. |
+| `text( value, x-position, y-position)` | Draws the value as text onto the canvas at the given x and y coordinates. |
 
 ## D - Booleans and conditional statements
 
@@ -70,11 +70,11 @@
 | Name   | Info |
 | ------ | --------- |
 | boolean | A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: `myBoolean = true;` or `myBoolean = false;`. It is also possible to assign the number `1` or the number `0` to the boolean variable. `1` is the same as `true` and `0` is the same as `false`  |
-| function mouseClicked() { ... } | This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once. |
-| function keyPressed() { ... } | This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable. |
-| if( condition ){ ... } | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing. |
-| if( condition ) { ... } else { ... } | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited. |
-| if( condition1 ){ ... } else if( condition2 ) { ... } else { ... }| If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
+| `function mouseClicked() { ... }` | This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once. |
+| `function keyPressed() { ... }` | This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable. |
+| `if( condition ){ ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing. |
+| `if( condition ) { ... } else { ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited. |
+| `if( condition1 ){ ... } else if( condition2 ) { ... } else { ... }` | If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceeding if statements are true, then the code inside the else brackets gets exicuted and then exited. |
 
 ## E - External media (images)
 
