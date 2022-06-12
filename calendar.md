@@ -27,6 +27,8 @@
 ```javascript
 function setup(){
   ...
+  //code goes here
+  ...
 }
 ```
 
@@ -39,6 +41,8 @@ function setup(){
 
 ``` javascript
 function draw() {
+  ...
+  //code goes here
   ...
 }
 ```
@@ -191,17 +195,36 @@ arc()
 <td>Reference</td>
 </tr>
 
+
+<tr>
+<td>
+
+```javascript
+function myFunctionName () {
+  ...
+  //code goes here
+  ...
+}
+```
+
+</td>
+<td>This is the standard format for declaring a function. The "function" keyword is required before writing the name of the function which is then followed by open and closed parenthesis and then open and closed squiggly brackets ( {} ). This function does not use any parameters.</td>
+</tr>
+
+
 <tr>
 <td>
 
 ```javascript
 function myFunctionName ( parameter1, parameter2, etc ) {
   ...
+  //code goes here
+  ...
 }
 ```
 
 </td>
-<td>This is the standard format for declaring a function. The "function" keyword is required before writing the name of the function which is then followed by open and closed squiggly brackets ( { } ). The parameters for the function are used within the body of the function to do certain tasks. Parameters can be integers, or strings, or anything really.</td>
+<td>This function uses a few parameters, and they are required in order for the function to perform its duties. The parameters pass external data into the function and are used within the body of the function in a variety of ways. Parameters can be integers, or strings, or anything really.</td>
 </tr>
 
 <tr>
