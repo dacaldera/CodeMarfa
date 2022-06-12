@@ -69,6 +69,19 @@
 -   Use the if/else to call a custom function based on mouse position
 -   Lab: Create an applet that draws different shapes depending on keyPresses and mouse Positions (use custom functions)
 
+
+<table>
+<tr>
+<td> Code snippet </td> <td> What it does </td>
+</tr>
+<tr>
+<td> boolean </td>
+<td>
+A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: `myBoolean = true;` or `myBoolean = false;`. It is also possible to assign the number `1` or the number `0` to the boolean variable. `1` is the same as `true` and `0` is the same as `false`
+</td>
+</tr>
+</table>
+
 | Name   | Info |
 | ------ | --------- |
 | boolean | A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: `myBoolean = true;` or `myBoolean = false;`. It is also possible to assign the number `1` or the number `0` to the boolean variable. `1` is the same as `true` and `0` is the same as `false`  |
