@@ -10,7 +10,7 @@
 -   Understand the canvas size and coordinate system
 -   Explore a variety of shapes (and lines, time permitting)
 -   Add color, stroke, lineWeight
--   Lab: Explore the line function (if not yet). Draw your own animal or plant using only shapes. Give it color with fill and stroke. keep it simple, maximum 10 shapes. Save your file (will be using it for next lesson)
+-   Lab: Explore the line function (if not yet). Recreate a Mondrian painting. Give it color with fill and stroke. Save your file.
 
 
 <table>
@@ -231,14 +231,14 @@ line(x1, y1, x2, y2)
 <td>
 
 ```javascript
-arc(x-position, y-position, width, height, start_rotation_in_radians, end_rotation_in_radians)
+strokeWeight(value)
 ```
 
 </td>
-<td>Draws an arc</td>
+<td>Changes the thickness of the outline around shapes. The default value is 1.</td>
 <td>
 
-[link](https://p5js.org/reference/#/p5/arc)
+[link](https://p5js.org/reference/#/p5/strokeWeight)
 
 </td>
 </tr>
