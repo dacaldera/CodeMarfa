@@ -125,7 +125,7 @@ circle(x-position, y-position, size)
 ```
 
 </td>
-<td>Draws a circle</td>
+<td>Draws a circle centered around the coordinates specified.</td>
 <td>
 
 [link](https://p5js.org/reference/#/p5/circle)
@@ -141,7 +141,7 @@ square(x-position, y-position, size)
 ```
 
 </td>
-<td>Draws a square</td>
+<td>Draws a square with the top left corner at the coordinates specified, size extending outward from there.</td>
 <td>
 
 [link](https://p5js.org/reference/#/p5/square)
@@ -157,7 +157,7 @@ rect(x-position, y-position, width, height)
 ```
 
 </td>
-<td>Draws a rectangle</td>
+<td>Draws a rectangle with top left corder at the coordinate specified, width and height extending outward there.</td>
 <td>
 
 [link](https://p5js.org/reference/#/p5/rect)
@@ -173,7 +173,7 @@ ellipse(x-position, y-position, width, height)
 ```
 
 </td>
-<td>Draws an oval</td>
+<td>Draws an oval centered around the coordinates specified, size and shape of the oval determines the shape.</td>
 <td>
 
 [link](https://p5js.org/reference/#/p5/ellipse)
@@ -189,7 +189,7 @@ triangle(x1, y1, x2, y2, x3, y3)
 ```
 
 </td>
-<td>Draws a triangle</td>
+<td>Requires three point coordinates (each point is an x and y pair). Draws a triangle with the given points</td>
 <td>
 
 [link](https://p5js.org/reference/#/p5/triangle)
@@ -205,7 +205,7 @@ line(x1, y1, x2, y2)
 ```
 
 </td>
-<td>Draws a line between two points</td>
+<td>Draws a line between two point coordinate pairs</td>
 <td>
 
 [link](https://p5js.org/reference/#/p5/line)
@@ -336,7 +336,6 @@ mouseY
 <td>Code snippet </td>
 <td>Description </td>
 <td>Reference</td>
-<td>[]()</td>
 </tr>
 
 <tr>
@@ -461,7 +460,7 @@ let myBool = false;
 
 </td>
 <td>
-A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: `myBoolean = true;` or `myBoolean = false;`. It is also possible to assign the number `1` or the number `0` to the boolean variable. `1` is the same as `true` and `0` is the same as `false`
+A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: <code>myBoolean = true;</code> or <code>myBoolean = false;</code>. It is also possible to assign the number <code>1</code> or the number <code>0</code> to the boolean variable. <code>1</code> is the same as <code>true</code> and <code>0</code> is the same as <code>false</code>
 </td>
 <td>
 
@@ -550,7 +549,7 @@ if( condition1 ){
 ```
 
 </td>
-<td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceding if statements are true, then the code inside the else brackets gets exicuted and then exited. </td>
+<td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceding if statements are true, then the code inside the else brackets gets executed and then exited. </td>
 <td>
 
 [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
