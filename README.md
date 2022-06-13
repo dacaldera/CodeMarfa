@@ -1,4 +1,15 @@
 # Creative Coding in the High Desert 	
+
+-----
+### Sylabus is here: [SYLLABUS](CCHD-Syllabus-220502.pdf)
+
+
+### Reading list is here: [READING LIST](CCHD-Reader-Bibliography-Final.pdf)
+
+### Calendar is here: [Calendar](calendar.md)
+
+-----
+
 ## Daniel Calderon, Lecturer and David Politzer, Associate Professor
 ### UH School of Art in Marfa, TX
 ### IART 6070-02
@@ -7,11 +18,3 @@
 
 
 Welcome to the course!
-
-Sylabus is here: [SYLLABUS](CCHD-Syallbus-220502.pdf)
-
-Reading list is here: [READING LIST](CCHD Reader-Bibliography-Final.pdf)
-
-Here you will find helpful content related to the topics explored in class.
-
-Click the folder structure above to navigate the content.
