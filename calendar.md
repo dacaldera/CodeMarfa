@@ -34,7 +34,11 @@ function setup(){
 
 </td>
 <td>This is a p5.js function that runs only once at the very start of the sketch after pressing "play". This is a great place to set up variables and do other preparatory stuff before the draw loop happens.</td>
-<td> [link](https://p5js.org/reference/#/p5/setup) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/setup)
+
+</td>
 </tr>
 
 <tr>
@@ -50,7 +54,11 @@ function draw() {
 
 </td>
 <td>This is a p5.js function that runs continuously (forever) in a loop after the setup function has finished running. The draw loop is a good place to put code that needs repeated execution, like animation elements, etc.</td>
-<td> [link](https://p5js.org/reference/#/p5/draw) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/draw)
+
+</td>
 </tr>
 
 <tr>
@@ -62,7 +70,11 @@ createCanvas(width, height);
 
 </td>
 <td>This function is required and creates the canvas onto which your sketch will draw graphics to. The createCanvas function should reside at the start of the setup(){ ... } function, and should only be called once.</td>
-<td> [link](https://p5js.org/reference/#/p5/createCanvas) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/createCanvas)
+
+</td>
 </tr>
 
 <tr>
@@ -74,7 +86,11 @@ fill( r, g, b );
 
 </td>
 <td>Fills a shape with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shapes coming after this function in the code will be filled with the specified color. Adding a fourth value will set transparency</td>
-<td> [link](https://p5js.org/reference/#/p5/fill) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/fill)
+
+</td>
 </tr>
 
 <tr>
@@ -86,7 +102,11 @@ stroke(r, g, b );
 
 </td>
 <td>Draws shape edges or lines with color. Takes 3 values each between 0 and 255, one for each color (red, green, blue). Any shape edges or lines coming after this function in the code will be drawn with the specified color. Adding a fourth value will set transparency</td>
-<td> [link](https://p5js.org/reference/#/p5/stroke) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/stroke)
+
+</td>
 </tr>
 </table>
 
@@ -106,7 +126,11 @@ circle(x-position, y-position, size)
 
 </td>
 <td>Draws a circle</td>
-<td> [link](https://p5js.org/reference/#/p5/circle) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/circle)
+
+</td>
 </tr>
 
 <tr>
@@ -118,7 +142,11 @@ square(x-position, y-position, size)
 
 </td>
 <td>Draws a square</td>
-<td> [link](https://p5js.org/reference/#/p5/square) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/square)
+
+</td>
 </tr>
 
 <tr>
@@ -130,7 +158,11 @@ rect(x-position, y-position, width, height)
 
 </td>
 <td>Draws a rectangle</td>
-<td> [link](https://p5js.org/reference/#/p5/rect) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/rect)
+
+</td>
 </tr>
 
 <tr>
@@ -142,7 +174,11 @@ ellipse(x-position, y-position, width, height)
 
 </td>
 <td>Draws an oval</td>
-<td> [link](https://p5js.org/reference/#/p5/ellipse) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/ellipse)
+
+</td>
 </tr>
 
 <tr>
@@ -154,7 +190,11 @@ triangle(x1, y1, x2, y2, x3, y3)
 
 </td>
 <td>Draws a triangle</td>
-<td> [link](https://p5js.org/reference/#/p5/triangle) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/triangle)
+
+</td>
 </tr>
 
 <tr>
@@ -166,7 +206,11 @@ line(x1, y1, x2, y2)
 
 </td>
 <td>Draws a line between two points</td>
-<td> [link](https://p5js.org/reference/#/p5/line) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/line)
+
+</td>
 </tr>
 
 <tr>
@@ -178,7 +222,11 @@ arc(x-position, y-position, width, height, start_rotation_in_radians, end_rotati
 
 </td>
 <td>Draws an arc</td>
-<td> [link](https://p5js.org/reference/#/p5/arc) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/arc)
+
+</td>
 </tr>
 
 </table>
@@ -218,7 +266,11 @@ function myFunctionName () {
 
 </td>
 <td>This is the standard format for declaring a function. The "function" keyword is required before writing the name of the function which is then followed by open and closed parenthesis and then open and closed squiggly brackets ( {} ). This function does not use any parameters.</td>
-  <td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) </td>
+  <td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+</td>
 </tr>
 
 
@@ -235,7 +287,11 @@ function myFunctionName ( parameter1, parameter2, etc ) {
 
 </td>
 <td>This function uses a few parameters, and they are required in order for the function to perform its duties. The parameters pass external data into the function and are used within the body of the function in a variety of ways. Parameters can be integers, or strings, or anything really.</td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+</td>
 </tr>
 
 <tr>
@@ -253,7 +309,11 @@ mouseY
 
 </td>
 <td>These are variables that hold the current x-position and y-position of the mouse cursor when it is over the canvas. They are built-in variables, meaning that they exist as part of the p5.js library whether you use them or not, they are always available.</td>
-<td> [link](https://p5js.org/reference/#/p5/mouseX) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/mouseX)
+
+</td>
 </tr>
 
 </table
@@ -286,7 +346,11 @@ mouseY
 
 </td>
 <td>The value of a constant can't be changed. A value needs to be assigned to it at the moment it is declared. If you try to change the value of it after declaring, the sketch with throw an error.
-<td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+
+</td>
 </tr>
 
 <tr>
@@ -296,7 +360,11 @@ mouseY
 
 </td>
 <td>"let" is a keyword used to declare a variable. The declared variable exists only within the block that it exists in, not outside of it. </td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+</td>
 </tr>
 
 <tr>
@@ -306,7 +374,11 @@ mouseY
 
 </td>
 <td>A string is generally a string of text. Strings require quotation marks (like this: "my string"). Two strings can be added together into a larger string.</td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+</td>
 </tr>
 
 <tr>
@@ -316,7 +388,11 @@ mouseY
 
 </td>
 <td>Numbers can be of two different types. Whole numbers (known as an "integer"), and numbers with a floating point aka decimal point (known as a "float").</td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
+
+</td>
 </tr>
 
 <tr>
@@ -328,7 +404,11 @@ console.log( put_variable_here );
 
 </td>
 <td>Logging things to the console is a way to see the value of variables, generally for debugging purposes etc.</td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Web/API/console/log)</td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/API/console/log)
+
+</td>
 </tr>
 
 <tr>
@@ -340,7 +420,11 @@ text( value, x-position, y-position)
 
 </td>
 <td>Draws the value as text onto the canvas at the given x and y coordinates.</td>
-<td> [link](https://p5js.org/reference/#/p5/text) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/text)
+
+</td>
 </tr>
 </table>
 
@@ -379,7 +463,9 @@ let myBool = false;
 <td>
 A boolean is a type of variable that can only be either true or false. The status of the boolean is assigned like this: `myBoolean = true;` or `myBoolean = false;`. It is also possible to assign the number `1` or the number `0` to the boolean variable. `1` is the same as `true` and `0` is the same as `false`
 </td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) </td>
 </tr>
 
 <tr>
@@ -393,7 +479,9 @@ function mouseClicked() {
 
 </td>
 <td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
-<td> [link](https://p5js.org/reference/#/p5/mouseClicked) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/mouseClicked) </td>
 </tr>
 
 <tr>
@@ -407,7 +495,9 @@ function keyPressed() {
 
 </td>
 <td>This is a special function that listens for when your keyboard keys are pressed. When so, the code inside this function will run exactly once. The specific key that was pressed will be automatically stored in the key (p5.js built-in) variable.</td>
-<td> [link](https://p5js.org/reference/#/p5/keyPressed) </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/keyPressed) </td>
 </tr>
 
 <tr>
@@ -421,7 +511,9 @@ if( condition ){
 
 </td>
 <td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise, the sketch moves on to the next thing.</td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
 </tr>
 
 <tr>
@@ -437,7 +529,11 @@ if( condition ) {
 
 </td>
 <td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise the code inside of the else brackets gets executed and then exited.</td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+
+</td>
 </tr>
 
 <tr>
@@ -455,7 +551,9 @@ if( condition1 ){
 
 </td>
 <td>If the condition is true, the code inside the brackets is executed and the if statement is exited. Otherwise it moves to then ext else if statement and checks it. If the second if statement is true, then the code inside its brackets is executed and the if statement exited. Finally, if neither of the preceding if statements are true, then the code inside the else brackets gets exicuted and then exited. </td>
-<td> [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
 </tr>
 
 </table>
