@@ -8,6 +8,10 @@
 
 Welcome to the course!
 
+Sylabus is here: [SYLLABUS](CCHD-Syallbus-220502.pdf)
+
+Reading list is here: [READING LIST](CCHD Reader-Bibliography-Final.pdf)
+
 Here you will find helpful content related to the topics explored in class.
 
 Click the folder structure above to navigate the content.
