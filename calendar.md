@@ -439,7 +439,8 @@ text( value, x-position, y-position)
 </td>
 </tr>
 
-
+<tr>
+<td>
 ```javascript
 function mouseClicked() {
   ...
