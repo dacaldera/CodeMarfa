@@ -444,16 +444,16 @@ text( value, x-position, y-position)
 <td>
 
 ```javascript
-function mouseClicked() {
+random(min_value, max_value) {
   ...
 }
 ```
 
 </td>
-<td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
+<td>Generates a random number between the min and the max. returns the random number as a floating point value (a number with a decimal place)</td>
 <td>
 
-[link](https://p5js.org/reference/#/p5/mouseClicked) </td>
+[link](https://p5js.org/reference/#/p5/random) </td>
 </tr>
 
 </table>
@@ -513,6 +513,24 @@ function keyPressed() {
 
 [link](https://p5js.org/reference/#/p5/keyPressed) </td>
 </tr>
+
+<tr>
+<td>
+
+```javascript
+function mouseClicked() {
+  ...
+}
+```
+
+</td>
+<td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/mouseClicked) </td>
+</tr>
+
+
 
 <tr>
 <td>
