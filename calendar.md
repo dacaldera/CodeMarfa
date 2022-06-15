@@ -340,7 +340,8 @@ mouseY
 -   Explore strings vs numbers (floats and ints)
 -   Console.log to see the value of the variable
 -   text() to write it to screen at a given position
--   Lab:
+-   mouseClicked event
+-   Lab: TBD
 
 <table>
 
@@ -437,6 +438,21 @@ text( value, x-position, y-position)
 
 </td>
 </tr>
+
+
+```javascript
+function mouseClicked() {
+  ...
+}
+```
+
+</td>
+<td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/mouseClicked) </td>
+</tr>
+
 </table>
 
 
@@ -444,7 +460,7 @@ text( value, x-position, y-position)
 
 -   true/false (1's and 0's)
 -   If/else if/else statements, aka conditionals
--   mouseClicked events, keyPressed events
+-   keyPressed events
 -   Use the if/else to call a custom function based on mouse position
 -   Lab: Create an applet that draws different shapes depending on keyPresses and mouse Positions (use custom functions)
 
@@ -482,18 +498,6 @@ A boolean is a type of variable that can only be either true or false. The statu
 <tr>
 <td>
 
-```javascript
-function mouseClicked() {
-  ...
-}
-```
-
-</td>
-<td>This is a special function that listens for when your mouse is clicked. When so, the code inside this function will run exactly once.</td>
-<td>
-
-[link](https://p5js.org/reference/#/p5/mouseClicked) </td>
-</tr>
 
 <tr>
 <td>
