@@ -1,9 +1,3 @@
-David
-
-
-
-Sorry, this has slipped my mind.
-
 
 
 For principles in ground cover, this is Nicole Masters and her TED Talk on soil:
@@ -53,9 +47,3 @@ This is a blog, so I can't locate any references, but it lays out a logical hist
 
 
 Basically, there was a shallow sea, then a lot of uplift and volcanic activity. The rise of the Rockies and the volcanic activity diverted existing water ways, altered rain patterns, and deposited sediment that all helped create the semi-arid grasslands.
-
-
-
-
-
-Thanks

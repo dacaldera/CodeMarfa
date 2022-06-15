@@ -444,9 +444,7 @@ text( value, x-position, y-position)
 <td>
 
 ```javascript
-random(min_value, max_value) {
-  ...
-}
+random(min_value, max_value)
 ```
 
 </td>
