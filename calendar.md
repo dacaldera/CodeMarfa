@@ -616,7 +616,7 @@ if( condition1 ){
 
 -   draw random circles within a specific rectangular region on the canvas
 -   create a bool that bounces off of the edges of the screen
--   Create starts (or pixels) that fall from the top of the screen
+-   Create stars (or pixels) that fall from the top of the screen
 -   Explore recursion - a function that calls itself
 -   Create a random walker that moves around the screen autonomously
 -   Create a grid of shapes without using a for loop
