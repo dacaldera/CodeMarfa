@@ -1,7 +1,7 @@
 # DISCOVERY ASSIGNMENT 1: **Decomposing**
 
 
-```Choose a common, everyday action (brushing your teeth, making a sandwich, driving to work, etc.) and decompose it/break it down to a fundamental sequence of steps. Write the steps down as a list and trade your list with your peers. Next, take turns performing and interpreting the list of steps as literally as possible. Where did the list of steps succeed or fail? Have fun doing it.```
+>Choose a common, everyday action (brushing your teeth, making a sandwich, driving to work, etc.) and decompose it/break it down to a fundamental sequence of steps. Write the steps down as a list and trade your list with your peers. Next, take turns performing and interpreting the list of steps as literally as possible. Where did the list of steps succeed or fail? Have fun doing it.
 
 
 ## Example:
