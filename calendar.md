@@ -430,6 +430,7 @@ console.log( put_variable_here );
 text( value, x-position, y-position)
 ```
 
+
 </td>
 <td>Draws the value as text onto the canvas at the given x and y coordinates.</td>
 <td>
