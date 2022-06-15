@@ -441,6 +441,7 @@ text( value, x-position, y-position)
 
 <tr>
 <td>
+
 ```javascript
 function mouseClicked() {
   ...
@@ -495,10 +496,6 @@ A boolean is a type of variable that can only be either true or false. The statu
 
 [link](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) </td>
 </tr>
-
-<tr>
-<td>
-
 
 <tr>
 <td>
