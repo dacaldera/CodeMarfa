@@ -586,6 +586,34 @@ if( condition1 ){
 [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
 </tr>
 
+<tr>
+<td>
+
+```javascript
+&& (and)
+```
+
+</td>
+<td>The two ampersands (&&) can be read as the word "and". This is a logical operator that is used in boolean conditional checks. It is used between two boolean values like this: a && b. If and only if both a and b are true then the operator evaluates to true. </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND) </td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+|| (or)
+```
+
+</td>
+<td>The two vertical pipe characters (||) can be read as the word "or". This is a logical operator that is used in boolean conditional checks. It is used between two boolean values like this: a || b. If one, or the other, or both a and b are true then the operator evaluates to true. </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR) </td>
+</tr>
+
 </table>
 
 
