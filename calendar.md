@@ -586,6 +586,22 @@ if( condition1 ){
 [link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) </td>
 </tr>
 
+
+<tr>
+<td>
+
+```javascript
+== (is equal to)
+```
+
+</td>
+<td>The double equals sign is the same as saying "is equal to" and equates two values. In other words, it returns a true value if the values are the same and returns a false if the values are different. It is easy to confuse this operator with the standard = sign which is an assignment operator instead. </td>
+<td></td>
+
+</tr>
+
+
+
 <tr>
 <td>
 
@@ -623,6 +639,84 @@ if( condition1 ){
 -   Displaying the image, altering size and position
 -   Image filters and effects
 -   Lab: build a collage of images
+
+<table>
+
+
+
+<tr>
+<td>
+
+```javascript
+function preload() {
+
+...
+
+}
+```
+  </td>
+<td>This is a special p5.js built in function the runs once before the setup function and only lets the sketch move forward once it has completed the processes within it. </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/preload)
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+```javascript
+let myImage = loadImage( "imageName.png" )
+```
+
+</td>
+<td>Loads an image into the variable. This needs to occur only once in your sketch and it should occur within the preload() function. </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/loadImage)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+myImage.resize(x, y)
+```
+
+</td>
+<td>resizes the image to the specified dimensions. </td>
+<td>
+
+[link](https://p5js.org/reference/#/p5.Image/resize)
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+```javascript
+image(myImage, x, y)
+```
+
+</td>
+<td>draws the image to the canvas with the top left corner starting at the x and y positions specified.</td>
+<td>
+
+[link](https://p5js.org/reference/#/p5/image)
+
+</td>
+</tr>
+
+
+</table>
+
+
 
 ## F - Arrays
 
