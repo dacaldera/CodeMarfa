@@ -56,6 +56,8 @@ action = "If you have water, give the nearest plant a drink. If not, walk to the
 action = "If you have water, give the nearest plant a drink. If not, walk to the water well, get some water, and give the nearest plant a drink from there."
 } else if (20){
 action = "Wander aimlessly for a few minutes"
+} else {
+action = "return to trailer"
 }
 ```
 
