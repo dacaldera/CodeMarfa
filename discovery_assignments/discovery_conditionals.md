@@ -16,7 +16,7 @@
 
 
 
-1: Walk 45 steps in the direction of the sun. If you reach a barrier, walk around it and continue or turn around and walk the remaining steps in the opposite direction of the barrier.
+1: Walk 45 steps in the direction of the sun. If you reach a barrier, walk around it and continue or turn around and walk the remaining steps in the opposite direction of the barrier."
 
 2: Shout a random word loudly into the air X number of times while looking up at the sky. X is determined by the position of this action in your list.
 
