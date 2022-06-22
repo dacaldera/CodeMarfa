@@ -721,23 +721,221 @@ image(myImage, x, y)
 ## F - Arrays
 
 -   Declaring and using Arrays
--   Accessing the elements of the array using bracket notation
+-   Accessing the elements of the array using square-bracket notation
 -   Selecting the last item and a random item from the array
--   Lab: Build a madlib that uses words stored in an array
+-   Lab: Practice adding and removing values from an array
+
+<table>
+
+<tr>
+<td>Code snippet </td>
+<td>Description </td>
+<td>Reference</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+let myArray = [];
+```
+
+</td>
+<td>Basic syntax for declaring an empty array </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+let myArray = [item, item, item];
+```
+
+</td>
+<td>Basic syntax for declaring an array with items in it </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+```javascript
+myArray.length;
+```
+
+</td>
+<td>gets the length of the arrray (how many items are in the array)</td>
+<td>
+
+[link](n-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+
+```javascript
+myArray.push( value );
+```
+
+</td>
+<td>Adds the item (value) to the end of the array </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+```javascript
+myArray.pop();
+```
+
+</td>
+<td>removes the last item from the end of the array </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+myArray.shift();
+```
+
+</td>
+<td>removes the first item from the start of the array </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+```javascript
+myArray.puunShift( value );
+```
+
+</td>
+<td>Adds the item (value) to the start of the array </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+myArray[0];
+myArray[5];
+myArray[20];
+```
+
+</td>
+<td>retrieve the item at the specified index from the array </td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+```javascript
+myArray[myArray.length - 1];
+```
+
+</td>
+<td>retrieve the last item from an array of any length. This one adapts to the length of the array </td>
+<td></td>
+</tr>
+</table>
+
 
 ## G - Loops (for loop / while loop)
 
--   Use a for loop to add a bunch of numbers into an array
+-   Use a for loop to add a bunch of number values into an array
 -   Use a for loop to display each element in an array
 -   Use the increment variable to access each array item
-    Lab: build an array of values and display them to the screen
+    Lab: build an array of values and display them to the screen using mouse click
+
+<table>
+
+<tr>
+<td>
+
+```javascript
+for(let i=0;i<10;i++){
+
+  console.log(i)
+
+}
+```
+
+</td>
+<td>Basic structure for a for loop </td>
+<td>
+
+[link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+
+```javascript
+for(let i=0;i<10;i++){
+  for(let j=0;j<10;j++){
+    console.log(i)
+    console.log(j)
+  }
+}
+```
+
+</td>
+<td>Basic structure for a for a nested loop - One use is for drawing a grid of shapes </td>
+<td>
+
+[link](https://happycoding.io/tutorials/p5js/for-loops)
+
+</td>
+</tr>
+</table>
 
 ## H - Work Day
 
 -   Loop and array practice day
--   Use an array to store mouse positions and display the last 100 using a loop
--   Use an array to draw a row of shapes or lines
-    Lab:
+-   use an array to draw a grid of lines
+-   Use an array to draw a sequence of shapes in a row
+-   Use an array to draw a grid of shapes
 
 ## I - P5 transformation tools
 
