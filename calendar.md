@@ -938,31 +938,25 @@ for(let i=0;i<10;i++){
 -   Use an array to draw a grid of shapes
 
 ## I - P5 transformation tools
-
+-   Map() function
 -   Transformations using p5
 -   Push() Pop()
 -   Translate() and rotate()
 -   Lab: create a graphical composition that incorporates rotating elements
 
-## J -
+## J - TBA
 
--   loading video
--   Playing video
--   sketching on top of the video
-    Lab:  
+-   Arc()
+-   Modulo %
+-   Sin and Cos functions
 
 ## Algorithms to try - Extra
 
 -   draw random circles within a specific rectangular region on the canvas
--   create a bool that bounces off of the edges of the screen
--   Create stars (or pixels) that fall from the top of the screen
--   Explore recursion - a function that calls itself
+-   create a ball that bounces off of the edges of the screen
+-   Create stars (or pixels) that fall from the top of the screen. They should reappear at the top when they go off the bottom.
+-   Explore recursion - a function that calls itself 
 -   Create a random walker that moves around the screen autonomously
 -   Create a grid of shapes without using a for loop
--   a nested For loop
+-   Create a grid of shapes using a nested For loop
 
-
-
-<!-- 7944
-4477 -->
-7656
